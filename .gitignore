@@ -1,0 +1,40 @@
+# 构建产物
+build/
+cmake-build-*/
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.user
+
+# AI 工具会话记录与工作区元数据
+.specstory/
+.cursor/
+.cursorindexingignore
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+*~
